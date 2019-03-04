@@ -15,10 +15,6 @@ I used the Visual Studio code editor on Ubuntu to allow me to use html and css w
 Visual Studio
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live syshttps://getbootstrap.com/tem
-
 ## Built With
 
 * [BootStrap](https://getbootstrap.com/)
