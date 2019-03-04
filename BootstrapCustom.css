@@ -1,0 +1,161 @@
+
+/*------Navbar------*/
+
+.navbar-brand{
+  font-size: 160%;
+  text-shadow: 2px 1px 2px rgb(219, 61, 33);
+}
+
+.navbar-brand{
+  font-family: "Norican", cursive;
+  font-size: 150%;
+}
+
+.nav-item{
+  color: blue;
+}
+
+.border-dark{
+  color: rgb(3, 3, 3);
+  text-shadow: 2px 2px 2px orangered;
+  font-family: "Norican", cursive;
+  width: 90%;
+
+}
+
+.form-control{
+  width: 99%;;
+	padding: 1px;
+}
+
+/*------Carousel------*/
+
+.carousel img{
+  max-height: 950px;
+}
+
+/* ------Hover reation grayscale / card-body Gandalf, Hobbit, Gimli------*/
+
+.name{
+  position: absolute;
+  color:white;
+  font-size: 40px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.rewardtext{
+  position: absolute;
+  width : 150px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  color: black;
+  top: -3%;
+  left: 18%;
+  font-size: 20px;
+  margin: 26px;
+  padding: .6em;
+}
+
+.card:hover .rewardtext{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  opacity : 0;
+}
+
+.card:hover .picture {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+}
+
+.card:hover .name{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  font-size:1.5em;
+  top: 55%;
+}
+
+span{
+  color: orangered;
+}
+
+/* Hover reaction / Picture DEAD Hobbit------*/
+
+.hoverDead {
+  text-align: center;
+  position: relative;
+}
+
+.hoverDead:hover p.dead{
+  opacity: 1;
+}
+
+
+.hoverDead p.dead{
+  font-size: 50px;
+  color: rgb(250, 3, 3);
+  width: 200px;
+  height: 200px;
+  background-image: url("https://nsa40.casimages.com/img/2019/03/03/mini_190303052120107678.jpg");
+  margin: 0 auto;
+  top: 20px;
+  left: 18%;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+
+}
+
+.jumbotron{
+  border-radius: 10px;
+  border-style: groove;
+  border-width: 5px;
+  box-shadow: 10px 5px 5px rgb(10, 10, 10);
+  background-color: white;
+}
+
+.captured{
+border-radius: 50px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+@font-face{
+  font-family: "Norican", cursive;
+    src:url("Norican.woff2") format("woff2"),
+        url("Norican.woff") format("woff");
+}
+
+@font-face{
+  font-family: "Calligraffitti", cursive;
+    src:url("Calligraffitti.woff2") format("woff2"),
+        url("Calligraffitti.woff") format("woff")
+}
