@@ -1,8 +1,5 @@
 # Nocktiss-Bootstrap+html+css
 
-
-# Project Title
-
 This is my first webpage using Bootstrap, html and css
 
 ## Getting Started
